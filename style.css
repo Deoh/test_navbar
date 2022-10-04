@@ -1,0 +1,38 @@
+:root {
+    --black: #000;
+    --bs-border-color: #000;
+}
+
+
+.navbar-brand {
+    margin: 0 15px;
+    color: var(--black);
+}
+
+.navbar-toggler {
+    border: none;
+    color: var(--black);
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.offcanvas.offcanvas-start {
+    width: 320px;
+}
+
+#offcanvasSearch {
+    height: fit-content;
+}
+
+/* .form-control,
+.input-group-text {
+    border-radius: 0;
+} */
+
+.offcanvas.offcanvas-top {
+    top: 56px;
+    border-bottom: none;
+    transform: translateY(-112px);
+}
